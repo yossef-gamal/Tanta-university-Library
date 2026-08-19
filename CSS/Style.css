@@ -1,0 +1,363 @@
+/*this is index file */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #222;
+}
+
+header{
+    background-color: white;
+}
+
+.container{
+    text-align: center;
+    width:80%;
+    margin: 0 auto;   
+}
+
+.Logo img{
+    width: 200px;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+    margin:10px;
+}
+
+a:hover{
+    color:rgb(1, 4, 181);
+    font-size:18px;
+}
+
+.search_btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.search_btn:hover{
+    background-color: blue;
+    color: black;
+}
+
+.big{
+    text-align: center;
+    padding: 50px;
+}
+
+.big h1{
+   font-size: 50px; 
+}
+
+.big p{
+    margin: 30px;
+}
+
+.search_input{
+    width: 300px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.explore_btn{
+    background-color: black;
+    border-radius: 50px;
+    color:white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.popular_books{
+    text-align: center;
+    padding: 20px;
+}
+
+.popular_books h2{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.book_card img{
+    width: 200px;
+    height:280px;
+    border-radius: 20px;
+}
+
+.book_card{
+    width: 300px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.book_card h3{
+    margin: 20px;
+}
+
+.book_card p{
+    margin: 10px;
+}
+
+.book_card a{
+    background-color: black;
+    border-radius: 50px;
+    color:white;
+    padding: 5px;
+    text-decoration: none;
+}
+/*this is details file*/
+.book_details{
+    text-align: center;
+    padding: 40px;
+}
+
+.book_details h1{
+    font-size:40px;
+    margin: 20px;
+}
+
+.book_details h2{
+    margin: 20px;
+}
+
+.book_details p{
+    margin: 15px;
+}
+
+.book_details a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+/*this is colleges file*/
+.college_libraries{
+    text-align: center;
+    padding: 40px;
+}
+
+.college_libraries h2{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.college_libraries p{
+    margin: 20px;
+}
+
+.college_libraries a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.recommendations{
+    text-align: center;
+    padding: 40px;
+}
+
+.recommendations h2{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.recommendations p{
+    margin: 20px;
+}
+
+.recommendations a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+footer a:hover{
+   color:rgb(1, 4, 181);
+    font-size:18px; 
+}
+
+/*this is books file*/
+.books_head{
+    text-align: center;
+    padding: 40px;
+}
+
+.books_head h1{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.books_head p{
+    margin: 20px;
+}
+
+.all_books{
+    text-align: center;
+    padding: 20px;
+}
+
+.all_books h2 {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.books_container{
+    text-align: center;
+}
+
+/*this is colleges fille*/
+.colleges_head{
+    text-align: center;
+    padding: 40px;
+}
+
+.colleges_head h1{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.colleges_head p{
+    margin: 20px;
+}
+
+.all_colleges{
+    text-align: center;
+    padding: 20px;
+}
+
+.all_colleges h2{
+    font-size: 40px;
+    margin: 20px;
+}
+
+.college_card{
+    width: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.college_card h3{
+    margin: 20px;
+}
+
+.college_card a{
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+/*this is recommendations file*/
+.recommendations_head{
+    text-align: center;
+    padding: 40px;
+}
+
+.recommendations_head h1{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.recommendations_head p{
+    margin: 20px;
+}
+
+.add_recommendation{
+    text-align: center;
+    padding: 40px;
+}
+
+.add_recommendation h2{
+    font-size: 40px;
+    margin: 20px;
+}
+
+.add_recommendation input,.add_recommendation textarea{
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.add_recommendation textarea{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.add_btn{
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.add_btn:hover{
+    background-color: blue;
+}
+
+.all_recommendations{
+    text-align: center;
+    padding: 20px;
+}
+
+.all_recommendations h2{
+    font-size: 40px;
+    margin: 20px;
+}
+
+.recommendation_card{
+    width: 320px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.recommendation_card h3{
+    margin: 10px ;
+}
+
+.recommendation_card p{
+    margin: 5px ;
+}

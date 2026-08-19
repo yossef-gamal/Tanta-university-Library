@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanta University Library</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a class="Logo" href="index.html"><img src="img/Logo.png" alt="Tanta university logo"></a>
+
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="Books.html">Books</a>
+                <a href="colleges.html">Colleges</a>
+                <a href="Recommendations.html">Recommendations</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="recommendations_head">
+            <h1>Student Recommendations</h1>
+            <p>Discover books recommended by Tanta University students and share your reading experience.</p>
+        </section>
+
+        <section class="add_recommendation">
+            <h2>Add a Recommendation</h2>
+
+            <input class="book_name" type="text" placeholder="Book name">
+
+            <input  class="student_name" type="text" placeholder="Your name">
+
+            <input class="college_name" type="text" placeholder="Your college">
+
+            <textarea class="recommendation_text" placeholder="Your Recommendation"></textarea>
+            <br>
+            <button class="add_btn">Add Recommendation</button>
+        </section>
+
+        <section class="all_recommendations">
+            <h2>Recommended Books</h2>
+            
+            <div class="recommendations_container">
+                <div class="recommendation_card">
+                    <h3>Basic Neuroanatomy</h3>
+                    <p>Recommended by: Ahmed Salah</p>
+                    <p>College: Medicine</p>
+                    <p>This book is very useful for understanding the basic concepts of neuroanatomy.</p>
+                </div>
+
+                <div class="recommendation_card">
+                    <h3>Data Structures & Algorithms</h3>
+                    <p>Recommended by: Youssef Husien</p>
+                    <p>College: Computer Science</p>
+                    <p>A good book for beginners and helped me understand data structures better.</p>
+                </div>
+
+                <div class="recommendation_card">
+                    <h3>Machine Drawing</h3>
+                    <p>Recommended by: Omar Ali</p>
+                    <p>College: Engineering</p>
+                    <p>Very helpful for understanding the basics of machine drawing.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="Books.html">Books</a>
+        <a href="colleges.html">Colleges</a>
+        <a href="Recommendations.html">Recommendations</a>
+    </div>
+</footer>
+
+<script src="JavaScript/recommendarions.js"></script>
+</body>
+</html>
